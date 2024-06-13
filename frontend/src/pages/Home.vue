@@ -21,6 +21,8 @@
             </li>
           </ul> -->
 
+          
+
           <Button @click="addActionDialogShown = true" icon-left="plus"
             >New Action</Button
           >
@@ -120,3 +122,5 @@ const addAction = () => {
   actions.insert.submit(action)
 }
 </script>
+
+
